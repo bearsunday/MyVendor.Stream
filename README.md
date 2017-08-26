@@ -1,30 +1,19 @@
 # MyVendor.Stream
 
-## Installation
+## Install and run
 
+    git clone https://github.com/bearsunday/MyVendor.Stream.git
+    cd MyVendor.Stream
     composer install
-
-## Usage
-
-### Run server
-
+    touch .env
     composer serve
 
-### Console
+Open http://127.0.0.1:8080/index.html
 
-    composer web get /
-    composer api get /
+Inline-image page
 
-### QA
+ * https://github.com/bearsunday/MyVendor.Stream/blob/master/src/Resource/Page/Image.php
 
-    composer test       // phpunit
-    composer coverage   // test coverate
-    composer cs         // lint
-    composer cs-fix     // lint fix
-    vendor/bin/phptest  // test + cs
-    vendor/bin/phpbuild // phptest + doc + qa
+Download page
 
-
-## Requirements
-
- * PHP 7.0+
+ * https://github.com/bearsunday/MyVendor.Stream/blob/master/src/Resource/Page/Download.php
