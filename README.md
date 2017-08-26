@@ -1,5 +1,8 @@
 # MyVendor.Stream
 
+This is a demo application for stream response.
+See http://bearsunday.github.io/manuals/1.0/en/stream.html for more detail.
+
 ## Install and run
 
     git clone https://github.com/bearsunday/MyVendor.Stream.git
